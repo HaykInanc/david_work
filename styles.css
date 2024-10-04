@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    /* background-color: #e0f7fa; Светло-голубой фон */
+    background-image: url("./mario.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: white; /* Цвет заголовка */
+}
+
+#letter {
+    font-size: 20vw; /* Размер шрифта зависит от ширины окна */
+    color: white; /* Цвет буквы */
+    margin: 0;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: white; /* Цвет баллов */
+}
